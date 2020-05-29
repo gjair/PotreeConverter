@@ -14,7 +14,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
-#include <filesystem>
+#include <experimental/filesystem>
 
 #include "Vector3.h"
 #include "AABB.h"
@@ -35,7 +35,7 @@ using std::endl;
 using std::vector;
 using std::map;
 
-namespace fs = std::filesystem;
+namespace fs = std::experimental::filesystem;
 
 namespace Potree {
 
